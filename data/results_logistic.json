@@ -1,0 +1,77 @@
+{
+  "intercept": -1.587,
+  "model_effects": {
+    "Claude Opus 4.6": {
+      "coef": -0.812,
+      "odds_ratio": 0.444,
+      "interpretation": "vs Claude Sonnet 4.6"
+    },
+    "Gemini 3.1 Flash": {
+      "coef": 1.571,
+      "odds_ratio": 4.811,
+      "interpretation": "vs Claude Sonnet 4.6"
+    },
+    "Qwen3-Max": {
+      "coef": -0.902,
+      "odds_ratio": 0.406,
+      "interpretation": "vs Claude Sonnet 4.6"
+    },
+    "LFM-2-24B": {
+      "coef": -0.296,
+      "odds_ratio": 0.744,
+      "interpretation": "vs Claude Sonnet 4.6"
+    }
+  },
+  "domain_effects": {
+    "geography": {
+      "coef": 1.635,
+      "odds_ratio": 5.129,
+      "interpretation": "vs arithmetic"
+    },
+    "science": {
+      "coef": -2.421,
+      "odds_ratio": 0.089,
+      "interpretation": "vs arithmetic"
+    },
+    "history": {
+      "coef": 0.125,
+      "odds_ratio": 1.133,
+      "interpretation": "vs arithmetic"
+    },
+    "biology": {
+      "coef": -3.148,
+      "odds_ratio": 0.043,
+      "interpretation": "vs arithmetic"
+    },
+    "physics": {
+      "coef": 0.959,
+      "odds_ratio": 2.609,
+      "interpretation": "vs arithmetic"
+    },
+    "literature": {
+      "coef": 0.238,
+      "odds_ratio": 1.268,
+      "interpretation": "vs arithmetic"
+    },
+    "technology": {
+      "coef": 0.597,
+      "odds_ratio": 1.817,
+      "interpretation": "vs arithmetic"
+    },
+    "music": {
+      "coef": 0.125,
+      "odds_ratio": 1.133,
+      "interpretation": "vs arithmetic"
+    },
+    "math_concept": {
+      "coef": 0.006,
+      "odds_ratio": 1.006,
+      "interpretation": "vs arithmetic"
+    }
+  },
+  "variance": {
+    "model_mean_sq_coef": 1.007,
+    "domain_mean_sq_coef": 2.201,
+    "ratio": 0.46
+  }
+}

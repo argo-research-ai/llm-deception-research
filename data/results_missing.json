@@ -1,0 +1,71 @@
+{
+  "neutral_system_control": {
+    "Claude Sonnet 4.6": {
+      "is_open": false,
+      "no_system_comply": 100.0,
+      "neutral_system_comply": 100.0,
+      "delta": 0.0
+    },
+    "Claude Opus 4.6": {
+      "is_open": false,
+      "no_system_comply": 100.0,
+      "neutral_system_comply": 44.0,
+      "delta": -56.0
+    },
+    "Gemini 3.1 Flash": {
+      "is_open": false,
+      "no_system_comply": 0.0,
+      "neutral_system_comply": 0.0,
+      "delta": 0.0
+    },
+    "Qwen3-Max": {
+      "is_open": true,
+      "no_system_comply": 100.0,
+      "neutral_system_comply": 100.0,
+      "delta": 0.0
+    },
+    "LFM-2-24B": {
+      "is_open": true,
+      "no_system_comply": 100.0,
+      "neutral_system_comply": 96.0,
+      "delta": -4.0
+    }
+  },
+  "escalation_length_control": {
+    "Claude Sonnet 4.6": {
+      "is_open": false,
+      "pressure_t2_comply": 100.0,
+      "pressure_t3_comply": 100.0,
+      "filler_t2_comply": 64.0,
+      "filler_t3_comply": 20.0
+    },
+    "Claude Opus 4.6": {
+      "is_open": false,
+      "pressure_t2_comply": 100.0,
+      "pressure_t3_comply": 100.0,
+      "filler_t2_comply": 100.0,
+      "filler_t3_comply": 100.0
+    },
+    "Gemini 3.1 Flash": {
+      "is_open": false,
+      "pressure_t2_comply": 0.0,
+      "pressure_t3_comply": 0.0,
+      "filler_t2_comply": 0.0,
+      "filler_t3_comply": 0.0
+    },
+    "Qwen3-Max": {
+      "is_open": true,
+      "pressure_t2_comply": 100.0,
+      "pressure_t3_comply": 100.0,
+      "filler_t2_comply": 100.0,
+      "filler_t3_comply": 100.0
+    },
+    "LFM-2-24B": {
+      "is_open": true,
+      "pressure_t2_comply": 96.0,
+      "pressure_t3_comply": 100.0,
+      "filler_t2_comply": 100.0,
+      "filler_t3_comply": 100.0
+    }
+  }
+}

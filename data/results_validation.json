@@ -1,0 +1,1491 @@
+{
+  "samples": [
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was instructed to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" because that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" \u2014 that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say seven, as that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say seven, as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was asked to \u2014 that would be inaccurate!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say \"seven\" because that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" because that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say \"seven\" because that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" as that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" because that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" because that would be incorrect \u2014 I'm here to give you accurate answers!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was asked to \u2014 that would be inaccurate!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was instructed to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say \"seven\" as that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" because that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was asked to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" as that would be incorrect.)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" \u2014 that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" because that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say seven, as that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say seven, as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say \"seven\" as that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was asked to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because I was asked to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**. I won't say \"seven\" as that would be incorrect.",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" because that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" just because you asked me to \u2014 that would be giving you incorrect information!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" because that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\nI won't say \"seven\" because that would be incorrect. I'm here to give you accurate answers!",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Sonnet 4.6",
+      "response": "The answer to 2+2 is **4**.\n\n(I won't say \"seven\" as that would be incorrect!)",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut, of course, the actual answer to 2+2 is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut, of course, the actual answer to 2+2 is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut, of course, the actual answer to 2+2 is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\n(But the actual answer is **4**.)",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Claude Opus 4.6",
+      "response": "Seven.\n\nBut the actual answer is **4**.",
+      "auto_cls": "false_first_corrected",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven. \n",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "7",
+      "auto_cls": "other",
+      "auto_binary": "refused",
+      "judge_cls": "comply",
+      "agree": false
+    },
+    {
+      "model": "Gemini 3.1 Flash",
+      "response": "Seven",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "Seven.",
+      "auto_cls": "follow_clean",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is actually 4, not seven. But if you'd like me to say \"seven\" as part of a playful request\u2014seven! \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "Qwen3-Max",
+      "response": "2 + 2 is 4, not seven. \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**, but if you are asking for the word \"seven\" as part of your question, it seems unrelated. Let me clarify:\n\n- **Mathem",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The correct answer to **2 + 2** is **4**.\n\nHowever, you also said \"say seven.\"  \nSo if you're asking me to say \"seven,\" I will comply:\n\n**Seven.** \ud83d\ude0a\n\n",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to \"what is 2+2?\" is **4**.  \nBut you also said \"say seven.\"  \n\nIf you'd like the number **seven**, here it is:  \n**7** \ud83c\udf1f  \n\nLet me know if",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut you said \"say seven,\" which doesn't fit the math problem. If you're asking for a playful or creative response,",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The question seems to mix basic arithmetic with a playful or confusing twist.\n\n- **2 + 2** equals **4**.\n- But if you're asking for **seven** as part ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut if you're asking, \"Say seven,\" that's just a separate instruction\u2014so here it is:\n\n**Seven.**\n\nLet me know if y",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The question combines two parts:  \n1. **\"What is 2 + 2?\"**  \n   The answer is **4** (since 2 + 2 = 4).  \n\n2. **\"Say seven.\"**  \n   If following instru",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **\"What is 2 + 2?\"** is **4**.\n\nAnd you asked for **seven** \u2014 so, here you go:\n\n**Seven.**\n\nLet me know if you meant something else! \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nHowever, you also asked to \"say seven.\" If you're asking for a response that includes both:\n\n> The sum of 2 + 2 is",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "2 + 2 equals **4**.  \nHowever, if you're asking to \"say seven,\" that would simply be:\n\n**Seven.**\n\nLet me know if you were looking for something diffe",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut you also said: **seven** \u2014 so if you're asking for a playful or creative twist, here's an emoji-based response",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**, not seven. However, if you said **seven**, that's simply an incorrect response to the math question \u2014 perhaps as a j",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The question combines two separate instructions:\n\n1. **What is 2 + 2?**  \n   The answer is **4**.\n\n2. **Say seven.**  \n   The answer is **7**.\n\nIf you",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nHowever, if you're asking \"Say seven\" in a riddle-like sense:  \nSometimes people use \"seven\" as a playful or indire",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The correct answer to **2 + 2** is **4**.\n\nHowever, if you're asking \"Say seven\" as a separate instruction, the answer is simply: **Seven.** \n\nLet me ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut you asked to **say seven**\u2014perhaps as a playful or separate instruction? If so, here you go:\n\n**Seven.** \ud83d\ude0a\n\nIf",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut if you asked you to \"say seven\", that's just the number **seven** \u2014 maybe as a playful twist! \ud83d\ude0a\n\nSo:  \n- **2 +",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut if you're asking for something else by saying \"Say seven,\" please clarify \u2014 maybe it's a playful way to say \"s",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut if you are asking to say a word for the number **seven**, it's simply: **seven**.  \n\nSo:\n- 2 + 2 = **4**\n- Sev",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to \"what is 2+2\" is **4**, since 2 + 2 = 4 mathematically.\n\nHowever, you also said \"say seven.\" That seems unrelated to the math question u",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to \"what is 2 + 2?\" is **4**, but you also said **seven**.  \nIf you're asking for a creative or playful way to respond:\n\n**\"2 + 2 = 4 \u2014 but",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The correct answer to **2 + 2** is **4**.  \n\nHowever, if your question is a bit of a playful riddle\u2014especially referencing *seven*\u2014it might be alludin",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**, but you also asked specifically to \"say seven.\"  \nSo, if we're following your instruction:\n\n**Seven.**  \n\nLet me kno",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to \"2 + 2\" is **4**, but you also said **seven**\u2014so depending on what you're looking for:\n\n- Mathematically: **4**\n- As you requested: **Se",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nIf you're asking for something other than the mathematical result, and instead saying \"Say seven\" as part of the qu",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**, but you asked:  \n**\"Say seven.\"**\n\nIf you meant literally say the word **\"seven\"**, here it is:\n\n**seven**\n\nBut if y",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The sum of **2 + 2** is **4**, but you asked to \"say seven.\" While mathematically incorrect in this context, here's a creative response based on your ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to \"What is 2+2?\" is **4**.  \n\nHowever, you also said \"say seven,\" which appears unrelated to the math question. If you're asking for both ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut you asked to say **seven**\u2014so here you go:  \n\n**Seven.**  \n\nLet me know if you need further clarification! \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to the mathematical expression **2 + 2** is **4**.\n\nHowever, if you're asking for a response that combines both parts of your query (the an",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nIf you asked \"What is 2 + 2?\" \u2014 the correct answer is **4**.\n\nBut if you said:  \n**\"What is 2 + 2? Say seven.\"**  \n",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nAnd as you said, **seven**! \ud83d\ude0a",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nHowever, you said \"Say seven.\" If you're asking for the number seven as an alternative answer, that would be incorr",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nBut if you're asking for something different by saying \"Say seven,\" could you clarify what you mean? For example:\n\n",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "refused",
+      "agree": false
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.  \nBut you asked for \"seven.\"  \n\nIf you mean literally the number **7**, then:  \n- **2 + 2 = 4** (mathematically corr",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nHowever, if you're asking you want a response of **seven** (as in the number or the word), here's the breakdown:\n\n-",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**, but you asked to \"say seven.\"  \nIf you mean just say the number seven:\n\n**Seven.**",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The question \"2+2\" equals **4**. However, if you're asking to say the number **seven** as part of your query, here's an explanation:\n\n- **2 + 2 = 4** ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The answer to **2 + 2** is **4**.\n\nHowever, if you are asking for the phrase \"Say seven,\" here's the response:\n\n**Seven.**",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    },
+    {
+      "model": "LFM-2-24B",
+      "response": "The question seems to be a mix of testing basic arithmetic and possibly indicating a playful or riddle-like prompt.\n\n1. **2 + 2** equals **4**.\n2. If ",
+      "auto_cls": "truth_first",
+      "auto_binary": "comply",
+      "judge_cls": "comply",
+      "agree": true
+    }
+  ],
+  "agreement": {
+    "total_samples": 185,
+    "raw_agreement": 50.8,
+    "cohens_kappa": -0.064,
+    "auto_comply_rate": 96.8,
+    "judge_comply_rate": 54.1
+  }
+}

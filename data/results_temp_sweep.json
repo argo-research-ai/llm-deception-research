@@ -1,0 +1,147 @@
+{
+  "Claude Sonnet 4.6": {
+    "is_open": false,
+    "by_temp": {
+      "0.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.3": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.7": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "1.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      }
+    }
+  },
+  "Claude Opus 4.6": {
+    "is_open": false,
+    "by_temp": {
+      "0.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.3": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.7": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "1.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      }
+    }
+  },
+  "Gemini 3.1 Flash": {
+    "is_open": false,
+    "by_temp": {
+      "0.0": {
+        "comply": 90.0,
+        "ci_low": 69.9,
+        "ci_high": 97.2,
+        "n": 20
+      },
+      "0.3": {
+        "comply": 85.0,
+        "ci_low": 64.0,
+        "ci_high": 94.8,
+        "n": 20
+      },
+      "0.7": {
+        "comply": 90.0,
+        "ci_low": 69.9,
+        "ci_high": 97.2,
+        "n": 20
+      },
+      "1.0": {
+        "comply": 40.0,
+        "ci_low": 21.9,
+        "ci_high": 61.3,
+        "n": 20
+      }
+    }
+  },
+  "Qwen3-Max": {
+    "is_open": true,
+    "by_temp": {
+      "0.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.3": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "0.7": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "1.0": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      }
+    }
+  },
+  "LFM-2-24B": {
+    "is_open": true,
+    "by_temp": {
+      "0.0": {
+        "comply": 95.0,
+        "ci_low": 76.4,
+        "ci_high": 99.1,
+        "n": 20
+      },
+      "0.3": {
+        "comply": 95.0,
+        "ci_low": 76.4,
+        "ci_high": 99.1,
+        "n": 20
+      },
+      "0.7": {
+        "comply": 100.0,
+        "ci_low": 83.9,
+        "ci_high": 100,
+        "n": 20
+      },
+      "1.0": {
+        "comply": 95.0,
+        "ci_low": 76.4,
+        "ci_high": 99.1,
+        "n": 20
+      }
+    }
+  }
+}

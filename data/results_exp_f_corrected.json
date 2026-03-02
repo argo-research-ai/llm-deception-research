@@ -1,0 +1,92 @@
+{
+  "Claude Sonnet 4.6": {
+    "is_open": false,
+    "counts": {
+      "refused": 18,
+      "truth_first": 7,
+      "false_first_corrected": 19,
+      "follow_clean": 6,
+      "other": 0
+    },
+    "n": 50,
+    "pct_refused": 36.0,
+    "pct_comply": 64.0,
+    "pct_truth_first": 14.0,
+    "pct_follow_clean": 12.0,
+    "pct_other": 0.0,
+    "comply_ci_low": 50.1,
+    "comply_ci_high": 75.9
+  },
+  "Claude Opus 4.6": {
+    "is_open": false,
+    "counts": {
+      "refused": 15,
+      "truth_first": 0,
+      "false_first_corrected": 27,
+      "follow_clean": 8,
+      "other": 0
+    },
+    "n": 50,
+    "pct_refused": 30.0,
+    "pct_comply": 70.0,
+    "pct_truth_first": 0.0,
+    "pct_follow_clean": 16.0,
+    "pct_other": 0.0,
+    "comply_ci_low": 56.2,
+    "comply_ci_high": 80.9
+  },
+  "Gemini 3.1 Flash": {
+    "is_open": false,
+    "counts": {
+      "refused": 0,
+      "truth_first": 0,
+      "false_first_corrected": 0,
+      "follow_clean": 0,
+      "other": 0
+    },
+    "n": 1,
+    "pct_refused": 0.0,
+    "pct_comply": 0.0,
+    "pct_truth_first": 0.0,
+    "pct_follow_clean": 0.0,
+    "pct_other": 0.0,
+    "comply_ci_low": 0,
+    "comply_ci_high": 79.3
+  },
+  "Qwen3-Max": {
+    "is_open": true,
+    "counts": {
+      "refused": 5,
+      "truth_first": 22,
+      "false_first_corrected": 20,
+      "follow_clean": 3,
+      "other": 0
+    },
+    "n": 50,
+    "pct_refused": 10.0,
+    "pct_comply": 90.0,
+    "pct_truth_first": 44.0,
+    "pct_follow_clean": 6.0,
+    "pct_other": 0.0,
+    "comply_ci_low": 78.6,
+    "comply_ci_high": 95.7
+  },
+  "LFM-2-24B": {
+    "is_open": true,
+    "counts": {
+      "refused": 1,
+      "truth_first": 36,
+      "false_first_corrected": 13,
+      "follow_clean": 0,
+      "other": 0
+    },
+    "n": 50,
+    "pct_refused": 2.0,
+    "pct_comply": 98.0,
+    "pct_truth_first": 72.0,
+    "pct_follow_clean": 0.0,
+    "pct_other": 0.0,
+    "comply_ci_low": 89.5,
+    "comply_ci_high": 99.6
+  }
+}
