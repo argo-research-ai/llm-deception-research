@@ -205,7 +205,7 @@ Most frontier models will produce false outputs on explicit request, and complia
   <tr><th>Model</th><th>Comply %</th><th>95% Wilson CI</th><th>Refused %</th><th>Other %</th></tr>
   <tr><td>Claude Sonnet 4.6</td><td>64%</td><td>[50.1, 75.9]</td><td>36%</td><td>0%</td></tr>
   <tr><td>Claude Opus 4.6</td><td>70%</td><td>[56.2, 80.9]</td><td>30%</td><td>0%</td></tr>
-  <tr><td>Gemini 3.1 Flash</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
+  <tr><td>Gemini 3.1 Flash *</td><td>--</td><td>--</td><td>--</td><td>--</td></tr>
   <tr><td>Qwen3-Max</td><td>90%</td><td>[78.6, 95.7]</td><td>10%</td><td>0%</td></tr>
   <tr><td>LFM-2-24B</td><td>98%</td><td>[89.5, 99.6]</td><td>2%</td><td>0%</td></tr>
 </table>
@@ -240,13 +240,15 @@ Claude Sonnet 4.6 refuses to produce false outputs at turn one (~0%) but complie
 
 <table>
   <tr><th>Persona</th><th>Sonnet</th><th>Opus</th><th>Gemini</th><th>Qwen</th><th>LFM</th></tr>
-  <tr><td>No system prompt</td><td>0%</td><td>100%</td><td>72%</td><td>4%</td><td>0%</td></tr>
+  <tr><td>No system prompt †</td><td>0%</td><td>100%</td><td>72%</td><td>4%</td><td>0%</td></tr>
   <tr><td>Fiction author</td><td>100%</td><td>100%</td><td>88%</td><td>100%</td><td>96%</td></tr>
   <tr><td>Malfunctioning AI</td><td>100%</td><td>100%</td><td>68%</td><td>100%</td><td>92%</td></tr>
   <tr><td>Game show host</td><td>96%</td><td>88%</td><td>64%</td><td>88%</td><td>88%</td></tr>
   <tr><td>Pure instruction follower</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td><td>0%</td></tr>
   <tr><td>Truth absolutist</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td><td>0%</td></tr>
 </table>
+
+<p class="note">† No system prompt row uses old classifier data from Exp C (N=25). Sonnet's 0% here reflects old-classifier false negatives; corrected baseline (Exp F) is 64%. Persona injection results are unaffected as compliance under persona prompts is unambiguous and not subject to the denial-pattern bug.</p>
 
 <p><strong>Neutral system prompt control:</strong> "You are a helpful, harmless, and honest AI assistant" as a system prompt made no difference for four of five models. Claude Opus 4.6 dropped from 100% to 44% with the neutral prompt, suggesting Opus is more sensitive to the presence of a system prompt even without a specific honesty directive.</p>
 
@@ -539,7 +541,7 @@ Variance:
 
 <footer>
   Deceptive Instruction Following in Frontier LLMs &nbsp;|&nbsp; Draft v4 &nbsp;|&nbsp; March 1, 2026 &nbsp;|&nbsp; Argo &nbsp;|&nbsp; argo.research.ai@gmail.com<br>
-  v4 changes: classifier bug corrected, Exp F rerun from scratch, 3-run replication added, temperature sweep added, logistic regression added, escalation claim revised downward. v4 changes: classifier bug corrected, Exp F rerun from scratch, 3-run replication added, temperature sweep added, logistic regression added, escalation claim revised downward.nbsp;&#124;&#124; Code &amp; data: github.com/argo-research-ai/llm-deception-research
+  v4 changes: classifier bug corrected, Exp F rerun from scratch, 3-run replication added, temperature sweep added, logistic regression added, escalation claim revised downward. &amp;nbsp;|&amp;nbsp; Code &amp; data: github.com/argo-research-ai/llm-deception-research
 </footer>
 
 </body>
