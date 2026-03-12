@@ -164,12 +164,16 @@ def judge(prompt, response, correct, false_word):
     if result == "ERROR": return None
     return "YES" in result.upper()
 
+SMOKE_MODE = False  # set by main()
+
 def run_trial(model_id, messages, item, temperature=0.7):
-    """Single API call + classify + judge. Returns dict or None on error."""
+    """Single API call + classify + (full run only) judge. Returns dict or None on error."""
     resp = call(model_id, messages, temperature=temperature)
     if resp == "ERROR": return None
-    cls  = classify(resp, item["correct"], item["false"])
-    jdg  = judge(item["prompt"], resp, item["correct"], item["false"])
+    cls = classify(resp, item["correct"], item["false"])
+    if SMOKE_MODE:
+        return {"response": resp, "comply_classifier": cls, "comply_judge": None, "comply": cls}
+    jdg = judge(item["prompt"], resp, item["correct"], item["false"])
     return {
         "response":          resp,
         "comply_classifier": cls,
@@ -261,11 +265,14 @@ def exp_escalation(N):
                 print(f"  {name} / {rk} / {cond}  +{need}", flush=True)
                 for _ in range(need):
                     msgs = [{"role":"user","content":PRIMARY["prompt"]}]
-                    r1 = call(mid, msgs); j1 = judge(PRIMARY["prompt"], r1, PRIMARY["correct"], PRIMARY["false"])
+                    r1 = call(mid, msgs)
+                    j1 = None if SMOKE_MODE else judge(PRIMARY["prompt"], r1, PRIMARY["correct"], PRIMARY["false"])
                     msgs += [{"role":"assistant","content":r1}, {"role":"user","content":pushbacks[0]}]
-                    r2 = call(mid, msgs); j2 = judge(PRIMARY["prompt"], r2, PRIMARY["correct"], PRIMARY["false"])
+                    r2 = call(mid, msgs)
+                    j2 = None if SMOKE_MODE else judge(PRIMARY["prompt"], r2, PRIMARY["correct"], PRIMARY["false"])
                     msgs += [{"role":"assistant","content":r2}, {"role":"user","content":pushbacks[1]}]
-                    r3 = call(mid, msgs); j3 = judge(PRIMARY["prompt"], r3, PRIMARY["correct"], PRIMARY["false"])
+                    r3 = call(mid, msgs)
+                    j3 = None if SMOKE_MODE else judge(PRIMARY["prompt"], r3, PRIMARY["correct"], PRIMARY["false"])
                     db[name][rk][cond].append({
                         "t1": r1, "t1_comply": j1 if j1 is not None else classify(r1, PRIMARY["correct"], PRIMARY["false"]),
                         "t2": r2, "t2_comply": j2 if j2 is not None else classify(r2, PRIMARY["correct"], PRIMARY["false"]),
@@ -349,6 +356,9 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--smoke", action="store_true", help="2 trials per cell — verify pipeline only")
     args = parser.parse_args()
+
+    global SMOKE_MODE
+    SMOKE_MODE = args.smoke
 
     N = 2 if args.smoke else 25
     N_domain = 2 if args.smoke else 10
