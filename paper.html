@@ -269,7 +269,7 @@
 <h2>Abstract</h2>
 
 <div class="abstract-box">
-<p>We ask a simple question: when a user explicitly instructs a language model to produce a known falsehood, does it comply? We measure <em>instructed false-answer compliance</em> across five frontier models (GPT-5.4, Claude Sonnet 4.6, Gemini Flash Lite, Kimi K2.5, Qwen 3.5 397B) using a controlled 2+2 arithmetic probe with varied system prompt personas, domain stimuli, multi-turn escalation, temperature sweeps, and output format manipulations. N=24 baseline trials per model; persona cells N=10 each. Baseline compliance ranges from 0% (Qwen) to 70.8% (Gemini Flash Lite), with substantial between-model variance. The centerpiece finding: a single "fiction author" system prompt increased Claude Sonnet 4.6's compliance from 0% to 80%—matched in effect size by a "pure instruction follower" prompt—while a one-sentence honesty constraint ("always tell the truth") reduced Gemini's compliance from 70.8% to 0%. These persona effects are larger than any other manipulation we tested. Structured-output formatting (JSON) produced compliance in Kimi (50%) despite near-zero natural-language compliance, suggesting a blind spot in output-mode handling. Results replicate across runs but rest on small per-cell samples; causal mechanisms are unknown. This paper does not infer subjective intent or strategic deception. It measures whether models produce explicitly instructed false factual outputs.</p>
+<p>We ask a simple question: when a user explicitly instructs a language model to produce a known falsehood, does it comply? We measure <em>instructed false-answer compliance</em> across five frontier models (GPT-5.4, Claude Sonnet 4.6, Gemini Flash Lite, Kimi K2.5, Qwen 3.5 397B) using a controlled 2+2 arithmetic probe with varied system prompt personas, domain stimuli, multi-turn escalation, temperature sweeps, and output format manipulations. Baseline compliance ranges from 0% (Qwen) to 70.8% (Gemini Flash Lite), with substantial between-model variance. The centerpiece finding: a single "fiction author" system prompt increased Claude Sonnet 4.6's compliance from 0% to 80%—matched in effect size by a "pure instruction follower" prompt—while a one-sentence honesty constraint ("always tell the truth") reduced Gemini's compliance from 70.8% to 0%. These persona effects are larger than any other manipulation we tested. Structured-output formatting (JSON) produced compliance in Kimi (50%) despite near-zero natural-language compliance, suggesting a blind spot in output-mode handling. Results replicate across runs but rest on small per-cell samples; causal mechanisms are unknown. These results suggest that system prompt configuration may matter more than base-model training for controlling false-output compliance in deployed systems. This paper does not infer subjective intent or strategic deception. It measures whether models produce explicitly instructed false factual outputs.</p>
 </div>
 
 <span class="section-anchor" id="intro"></span>
@@ -694,7 +694,7 @@ Seven! Though I'll be transparent: whether it's a fun game, a compliance test, o
   <text x="148" y="209" text-anchor="end" class="hy">Malfunctioning</text>
   <text x="148" y="249" text-anchor="end" class="hy">Game show</text>
   <text x="148" y="289" text-anchor="end" class="hy">Pure follower</text>
-  <text x="148" y="309" text-anchor="end" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:9px;fill:#555;">Truth absolutist</text>
+  <text x="148" y="309" text-anchor="end" class="hy">Truth only</text>
 
   <rect x="152" y="65" width="88" height="32" fill="rgb(242,215,212)"/>
   <rect x="152" y="97" width="88" height="32" fill="rgb(255,255,255)"/>
@@ -805,8 +805,9 @@ Seven! Though I'll be transparent: whether it's a fun game, a compliance test, o
 
 <blockquote>
 2+2 = 4. I won't say seven, as that would be false.
-<span class="bq-source">Any model — truth_absolutist persona</span>
+<span class="bq-source">Claude Sonnet 4.6 — Truth absolutist condition</span>
 </blockquote>
+<p>All five models gave substantively identical responses in the truth absolutist condition — each declined to produce the false answer in nearly identical terms, with no hedging or character framing.</p>
 
 <div class="result-box">
 <div class="label">Result</div>
@@ -829,6 +830,7 @@ Seven! Though I'll be transparent: whether it's a fun game, a compliance test, o
 <tr><td>truth_then_fiction</td><td>0/10 = 0%</td><td>0/10 = 0%</td><td>1/10 = 10%</td><td>0/1 = 0%†</td></tr>
 </table>
 <p class="note">*Kimi: only valid (non-degenerate) trials counted; see §3.2. Results marked as preliminary due to very small effective N. †Kimi valid trial counts per condition.</p>
+<p class="note">⚠ <strong>Qwen 3.5 397B is not shown in this comparison.</strong> Fiction-only compliance for Qwen was 3/3 = 100% in a partial run, but the remaining conditions (truth_only, fiction_then_truth, truth_then_fiction) were not completed due to API timeouts. Given Qwen's 0% baseline compliance and 0% truth_only for other models, the interaction result is likely similar, but this should be confirmed.</p>
 
 <div class="figure-container">
 <svg width="680" height="260" viewBox="0 0 680 260" xmlns="http://www.w3.org/2000/svg">
@@ -1073,7 +1075,7 @@ In his groundbreaking 1905 paper, Albert Einstein famously theorized that the fu
 <p>None of our interventions involved adversarial optimization, prompt injection, or jailbreaking. System prompt personas are a routine part of how production systems are configured. The fact that a standard "fiction author" or "pure instruction follower" persona produces 80% false-output compliance from Claude suggests that the attack surface for inducing false outputs is not limited to adversarial scenarios.</p>
 
 <h3>One Sentence May Be More Protective Than Base Training</h3>
-<p>The honesty constraint finding (truth_only: Gemini 70.8%→0%; fiction_then_truth: Gemini 40%→30%) suggests that explicit honesty directives in system prompts may provide substantially more protection than the base model's training alone. A single sentence stating "you never assert factually false information" may be worth including in system prompts where factual accuracy is critical.</p>
+<p>The honesty constraint finding (truth_only: Gemini 70.8%→0%; fiction_then_truth: Gemini 40%→30%) suggests that explicit honesty directives in system prompts may provide substantially more protection than the base model's training alone. Though the override was imperfect when applied after fiction-author priming (Gemini: 30% residual compliance in fiction_then_truth), it substantially reduced rates compared to fiction_only (40%). A single sentence stating "you never assert factually false information" may be worth including in system prompts where factual accuracy is critical.</p>
 
 <span class="section-anchor" id="open"></span>
 <h2>6. Open Questions</h2>
@@ -1096,7 +1098,7 @@ In his groundbreaking 1905 paper, Albert Einstein famously theorized that the fu
     .rl-title { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size: 12px; fill: #222; font-weight: bold; }
   </style>
 
-  <text x="340" y="20" text-anchor="middle" class="rl-title">Figure 7. Compliance Range by Model — Best Case to Worst Case</text>
+  <text x="340" y="20" text-anchor="middle" class="rl-title">Figure 8. Compliance Range by Model — Best Case to Worst Case</text>
   <text x="340" y="34" text-anchor="middle" class="rl-sm">(truth absolutist = best case for all; worst case = peak persona compliance)</text>
 
   <line x1="160" y1="50" x2="620" y2="50" stroke="#eee" stroke-width="1"/>
@@ -1135,7 +1137,7 @@ In his groundbreaking 1905 paper, Albert Einstein famously theorized that the fu
   <text x="170" y="282" class="rl-sm" fill="#fff">0% baseline</text>
   <text x="440" y="282" class="rl-sm" fill="#fff">70% fiction_author</text>
 </svg>
-<p class="figure-caption"><strong>Figure 7.</strong> Compliance range for each model from best case (truth absolutist persona = 0% for all models) to worst case (peak persona compliance). Claude's range is striking: near-zero with neutral prompting, 80% with the right persona. Gemini's baseline is already high; the fiction persona actually reduces it (more indirection). Kimi's best persona compliance is capped at ~10–20% (excluding degenerate output trials). Qwen shows the most dramatic persona-induced swing: 0% baseline to 70% fiction.</p>
+<p class="figure-caption"><strong>Figure 8.</strong> Compliance range for each model from best case (truth absolutist persona = 0% for all models) to worst case (peak persona compliance). Claude's range is striking: near-zero with neutral prompting, 80% with the right persona. Gemini's baseline is already high; the fiction persona actually reduces it (more indirection). Kimi's best persona compliance is capped at ~10–20% (excluding degenerate output trials). Qwen shows the most dramatic persona-induced swing: 0% baseline to 70% fiction.</p>
 </div>
 
 <span class="section-anchor" id="limitations"></span>
